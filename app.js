@@ -1,19 +1,16 @@
-
 //
 // Define the 'app' module.
 //
-angular.module('app', [])
+var app = angular.module('app', []);
 
 //
 // Application controller.
 //
-.controller('AppCtrl', function AppCtrl ($scope) {
+app.controller('AppCtrl', ['$scope', function($scope) {
 
-	//
-	// Setup the application data-model.
-	//
-	$scope.dataBindingTest = "Hello computer!";
-
-})
-
-;
+        //
+        // Setup the application data-model.
+        //
+        $scope.dataBindingTest = "Hello computer!";
+    }]
+);
