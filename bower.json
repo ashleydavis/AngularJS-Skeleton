@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "homepage": "https://github.com/ashleydavis/AngularJS-Skeleton",
   "authors": [
-    "ashleydavis75@insanefx.com"
+    "ashley@codecapers.com.au"
   ],
   "license": "MIT",
   "ignore": [
@@ -14,7 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.5",
-    "jquery": "^2.2.3"
+    "angular": "^1.6.8",
+    "jquery": "^3.3.1"
   }
 }
